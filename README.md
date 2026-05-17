@@ -75,10 +75,14 @@ npm run lint
 ---
 
 ## 🖼️ UI Preview
-Hover Me!
+
+---
+## 1.Hover Me! 
+
 <img width="1920" height="961" alt="Screenshot from 2026-05-17 23-53-28" src="https://github.com/user-attachments/assets/9e0837a4-724e-441e-9986-f354d252c882" />
 <img width="1920" height="961" alt="Screenshot from 2026-05-17 23-53-37" src="https://github.com/user-attachments/assets/aa0db30f-b829-4ec2-be87-353c990f68a5" />
 <img width="1920" height="961" alt="Screenshot from 2026-05-17 23-53-49" src="https://github.com/user-attachments/assets/94104ef9-397e-4c2a-bc6c-2fdc1824a9e1" />
+<img width="800" height="400" alt="Untitled design (2)" src="https://github.com/user-attachments/assets/8dc6fa24-5575-41b6-aaf1-0c4cfef2c393" />
 
 
 ---
