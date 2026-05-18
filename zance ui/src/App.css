@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+body {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+}
+.imagebar  img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.imagebar  img:hover {
+  scale: 250%;
+  
+}
