@@ -1,4 +1,4 @@
-import ImageBar from "./Components/Imagebar/ImageBar";
+import ImageBar from "./Components/ImageBar/ImageBar";
 import TextBar from "./Components/TextBar/TextBar";
 import { useState } from "react";
 
