@@ -18,7 +18,7 @@ interface Props {
 const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
 
 const ImageBar = ({ sendIndex }: Props) => {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   return (
     <div className="flex items-center justify-center mt-35 cursor-pointer py-3 ">
       <div className="flex imagebar gap-2">
@@ -33,7 +33,7 @@ const ImageBar = ({ sendIndex }: Props) => {
               className=" rounded-xl cursor-pointer object-cover"
               onHoverStart={() => {
                 setHoveredIndex(index);
-                sendIndex(index);
+                sendIndex(Number(index));
               }}
               onHoverEnd={() => {
                 setHoveredIndex(null);
