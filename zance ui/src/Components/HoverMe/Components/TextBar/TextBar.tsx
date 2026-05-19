@@ -6,18 +6,18 @@ interface Props {
 
 const TextBar = ({ index }: Props) => {
   const defaultString = "#zance-ui";
-  console.log("Text Bar component is rendered");
+  console.log("TextBar component is rendered");
   const data = [
-    "faffa",
-    "kaint",
-    "att",
-    "bamb",
-    "sira",
-    "koka",
-    "pappi",
-    "sawad",
-    "khatham",
-  ];
+  "zephyr",
+  "nova",
+  "drift",
+  "vortex",
+  "echo",
+  "blaze",
+  "onyx",
+  "pixel",
+  "quark",
+];
   return (
     <div className="flex flex-col items-center justify-center cursor-pointer will-change-transform mt-10">
       <div className="flex gap-3">
