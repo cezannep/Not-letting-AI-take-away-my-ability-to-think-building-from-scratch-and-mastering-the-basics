@@ -1,23 +1,29 @@
-import { motion } from "motion/react";
+import { motion, MotionValue, useMotionValueEvent } from "motion/react";
+import React, { useState } from "react";
 
 interface Props {
-  index: number;
+  hoveredIndex: MotionValue<number>;
 }
 
-const TextBar = ({ index }: Props) => {
+const TextBar = ({ hoveredIndex }: Props) => {
+  const [index, setIndex] = useState(-1);
+
+  useMotionValueEvent(hoveredIndex, "change", (latest) => {
+    setIndex(latest);
+  });
   const defaultString = "#zance-ui";
-  console.log("TextBar component is rendered");
+  console.count("TextBar rendered");
   const data = [
-  "zephyr",
-  "nova",
-  "drift",
-  "vortex",
-  "echo",
-  "blaze",
-  "onyx",
-  "pixel",
-  "quark",
-];
+    "zephyr",
+    "nova",
+    "drift",
+    "vortex",
+    "echo",
+    "blaze",
+    "onyx",
+    "pixel",
+    "quark",
+  ];
   return (
     <div className="flex flex-col items-center justify-center cursor-pointer will-change-transform mt-10">
       <div className="flex gap-3">
@@ -57,4 +63,4 @@ const TextBar = ({ index }: Props) => {
   );
 };
 
-export default TextBar;
+export default React.memo(TextBar);

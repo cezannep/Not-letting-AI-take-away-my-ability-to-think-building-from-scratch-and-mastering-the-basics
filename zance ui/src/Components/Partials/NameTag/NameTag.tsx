@@ -4,6 +4,7 @@ interface Props {
   title: string;
 }
 const NameTag = ({ title, color }: Props) => {
+  console.count("NameTag --------------------------- rendered")
   return (
     <motion.p
       animate={{

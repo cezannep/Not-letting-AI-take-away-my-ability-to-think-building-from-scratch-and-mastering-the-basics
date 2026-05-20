@@ -1,21 +1,19 @@
 import ImageBar from "./Components/ImageBar/ImageBar";
 import TextBar from "./Components/TextBar/TextBar";
-import { useState } from "react";
 import NameTag from "../Partials/NameTag/NameTag";
+import { useMotionValue } from "motion/react";
 
 const HoverMe = () => {
-  const [index, setIndex] = useState(-1);
-  function receiveIndex(id: number) {
-    setIndex(id);
-  }
+  const hoveredIndex = useMotionValue(-1);
+
   return (
-    <div className="relative min-h-screen w-full bg-black overflow-hidden">
+    <div className="relative flex flex-col items-center justify-center min-h-screen w-full bg-black ">
       <NameTag
           color={["#ffffff", "#ff0000", "#ffffff"]}
-          title="Scroll Text!"
+          title="Hover Me!"
         />
-      <ImageBar sendIndex={receiveIndex} />
-      <TextBar index={index} />
+      <ImageBar hoveredIndex={hoveredIndex} />
+      <TextBar hoveredIndex={hoveredIndex} />
     </div>
   );
 };
