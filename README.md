@@ -78,12 +78,23 @@ npm run lint
 
 ---
 ## 1.Hover Me! 
+<img width="1909" height="956" alt="Screenshot from 2026-05-20 20-37-20" src="https://github.com/user-attachments/assets/54cd1c99-e53e-42a2-b83e-d091892e4290" />
 
-<img width="1920" height="961" alt="Screenshot from 2026-05-17 23-53-28" src="https://github.com/user-attachments/assets/9e0837a4-724e-441e-9986-f354d252c882" />
-<img width="1920" height="961" alt="Screenshot from 2026-05-17 23-53-37" src="https://github.com/user-attachments/assets/aa0db30f-b829-4ec2-be87-353c990f68a5" />
-<img width="1920" height="961" alt="Screenshot from 2026-05-17 23-53-49" src="https://github.com/user-attachments/assets/94104ef9-397e-4c2a-bc6c-2fdc1824a9e1" />
-<img width="800" height="400" alt="Untitled design (2)" src="https://github.com/user-attachments/assets/8dc6fa24-5575-41b6-aaf1-0c4cfef2c393" />
+<img width="1909" height="956" alt="Screenshot from 2026-05-20 20-37-41" src="https://github.com/user-attachments/assets/e5bb2854-81e3-48b3-8769-58fa7e2269f0" />
 
+<img width="1909" height="956" alt="Screenshot from 2026-05-20 20-37-35" src="https://github.com/user-attachments/assets/cd82b6d8-18b1-4b3f-a8eb-4c211e23a59f" />
+
+<img width="1909" height="956" alt="Screenshot from 2026-05-20 20-37-28" src="https://github.com/user-attachments/assets/6b2649d5-1b96-45d1-a04f-2027ae3c734b" />
+
+<img width="800" height="450" alt="Untitled design (1) (1)" src="https://github.com/user-attachments/assets/3e4c6078-9c72-4582-ad36-357dbc290594" />
+
+
+---
+## 1.Scroll Text!
+
+<img width="1909" height="956" alt="Screenshot from 2026-05-20 20-37-56" src="https://github.com/user-attachments/assets/708ec617-1f60-4af7-8ffe-ddba15898b49" />
+
+<img width="800" height="450" alt="2026-05-20 21-27-00 (online-video-cutter com)" src="https://github.com/user-attachments/assets/b82150f4-ca9b-48ac-819b-93ef22caff96" />
 
 ---
 
